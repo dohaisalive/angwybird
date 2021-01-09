@@ -6,6 +6,9 @@ using UnityEngine;
 
 public class Monster : MonoBehaviour
 {
+    Rigidbody2D rb;
+  
+
     [SerializeField] Sprite deadsprite;
     [SerializeField] ParticleSystem particle;
 
@@ -14,7 +17,7 @@ public class Monster : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+      
     }
 
     // Update is called once per frame
@@ -34,15 +37,17 @@ public class Monster : MonoBehaviour
     {
         if (hasdied)
             return false;
+       
+        if (collision.gameObject.GetComponent<Bird>()!= null)
+            return true;
 
-        Bird bird = collision.gameObject.GetComponent<Bird>();
-        if (bird != null)
+        if (collision.gameObject.name == "Summer Ground")
             return true;
 
         if (collision.contacts[0].normal.y < -0.5) //object is coming from above
             return true;
 
-
+       
         return false;
     }
 

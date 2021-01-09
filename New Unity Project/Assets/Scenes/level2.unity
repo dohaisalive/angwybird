@@ -5570,7 +5570,7 @@ PrefabInstance:
     - target: {fileID: 7274422746676909022, guid: 1cd9f8239dd20ca449b8365cb1ed300a,
         type: 3}
       propertyPath: orthographic size
-      value: 5.9543695
+      value: 5.648224
       objectReference: {fileID: 0}
     - target: {fileID: 7274422746880190554, guid: 1cd9f8239dd20ca449b8365cb1ed300a,
         type: 3}
@@ -5950,7 +5950,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 82.29068, y: 14.4225}
+  m_Size: {x: 101.23398, y: 14.4225}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -5964,7 +5964,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 907026928}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 3.2, z: 0}
+  m_LocalPosition: {x: 9.47, y: 3.2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11078,7 +11078,7 @@ BoxCollider2D:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
     oldSize: {x: 2, y: 2}
-    newSize: {x: 49.333008, y: 2}
+    newSize: {x: 80.26692, y: 2}
     adaptiveTilingThreshold: 0.5
     drawMode: 2
     adaptiveTiling: 0
@@ -11130,7 +11130,7 @@ SpriteRenderer:
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 2
-  m_Size: {x: 49.333008, y: 2}
+  m_Size: {x: 80.26692, y: 2}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -11144,7 +11144,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1048231215}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: -4.5, z: 0}
+  m_LocalPosition: {x: 15.47, y: -4.5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -11475,7 +11475,7 @@ PrefabInstance:
     - target: {fileID: 2598484698033759459, guid: cb90bd94d814d5042b855c5f54e7bd06,
         type: 3}
       propertyPath: nextLevelName
-      value: level1
+      value: level3
       objectReference: {fileID: 0}
     - target: {fileID: 2598484698033759468, guid: cb90bd94d814d5042b855c5f54e7bd06,
         type: 3}
